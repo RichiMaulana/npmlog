@@ -1,6 +1,11 @@
-var log = require('./log.js')
+var log = require('../lib/log')
 
-log.heading = 'npm'
+// log.heading = 'npm'
+
+log.timestamp = true
+log.disableProgress()
+
+// throw 'ass'
 
 console.error('log.level=silly')
 log.level = 'silly'
